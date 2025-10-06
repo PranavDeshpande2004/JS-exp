@@ -1,0 +1,19 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+.card {
+  border-radius: 12px;
+}
+
+textarea {
+  resize: none;
+  height: 70px;
+}
+
+input:focus, textarea:focus {
+  border-color: #4cafef;
+  box-shadow: 0 0 5px rgba(76, 175, 239, 0.4);
+  outline: none;
+}

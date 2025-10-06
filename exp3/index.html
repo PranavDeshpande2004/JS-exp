@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Operations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Student Info at Top -->
+    <div class="info">
+      <h2>Name: Pranav Deshpande</h2>
+      <h3>Roll Number: 42318</h3>
+    </div>
+
+    <h1>String Operations</h1>
+
+    <!-- Replace Character -->
+    <div class="operation">
+      <label for="stringInput">Enter a string:</label>
+      <input type="text" id="stringInput" placeholder="Enter a string">
+
+      <label for="replaceChar">Character to replace:</label>
+      <input type="text" id="replaceChar" placeholder="Character to replace">
+
+      <label for="replaceWith">Replace with:</label>
+      <input type="text" id="replaceWith" placeholder="New character">
+
+      <button onclick="replaceCharacter()">Replace Character</button>
+      <div id="replaceResult" class="output"></div>
+    </div>
+
+    <!-- Palindrome Check -->
+    <div class="operation">
+      <label for="palindromeInput">Enter a string to check Palindrome:</label>
+      <input type="text" id="palindromeInput" placeholder="Check if Palindrome">
+      <button onclick="checkPalindrome()">Check Palindrome</button>
+      <div id="palindromeResult" class="output"></div>
+    </div>
+
+    <!-- Replace Substring -->
+    <div class="operation">
+      <label for="substringInput">Enter substring to replace:</label>
+      <input type="text" id="substringInput" placeholder="Substring to replace">
+
+      <label for="replaceWithSubstring">Replace with:</label>
+      <input type="text" id="replaceWithSubstring" placeholder="New substring">
+
+      <button onclick="replaceSubstring()">Replace Substring</button>
+      <div id="substringResult" class="output"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

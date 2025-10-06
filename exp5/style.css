@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 380px;
+}
+
+.info {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+h1 {
+  color: #333;
+}
+
+#countdown {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #ff6347;
+  font-weight: bold;
+}
+
+h2, h3 {
+  margin: 5px;
+  color: #4caf50;
+}
+
+input[type="datetime-local"] {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
